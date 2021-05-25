@@ -35,7 +35,7 @@ public class SignUp extends Base {
         PageFactory.initElements(driver, this);
     }
 
-    public void SignUpIntoApp(){
+    public void SignUpIntoApp(){            // TRY TO COVERUP HARD VALUES
         signUpLink.click();
         name.sendKeys("Laxmikant Shende");
         mobile.sendKeys("9975703730");
