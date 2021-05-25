@@ -34,7 +34,7 @@ public class AmazonLogin extends Base {
 
     public void loggedInToApp() throws InterruptedException {
         signIn.click();
-        mobile.sendKeys("8669874563");
+        mobile.sendKeys("8669874563");  // Instead of hard coding the credentials try to add it over the external data sheet
         continueButton.click();
         pass.sendKeys("WelSam@27");
         signInButton.click();
