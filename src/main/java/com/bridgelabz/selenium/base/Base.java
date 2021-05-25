@@ -28,7 +28,7 @@ public class Base {
         sc.screenshot("HomePage");
     }
 
-//    @AfterTest
+//    @AfterTest                        //  DON'T PUSH YOUR COMMENTED CODE ON YOUR GIT
 //    public void tearDown(){
 //        driver.close();
 //    }
